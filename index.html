@@ -7,11 +7,117 @@
     <meta name="author" content="Daniela Hernandez">
     <meta name="keywords" content="cafeteria, cafe,postres,panaderia,desayuno">
     <title>Cafeteria</title>
-<link rel="stylesheet" href="./pages/index.css">
-<link rel="stylesheet" href="./vendor/normalize.css">
-<link rel="stylesheet" href="favicon.ico">
+<link rel="stylesheet" href="./pages/index.css"/>
+<link rel="stylesheet" href="./vendor/normalize.css"/>
+<link rel="stylesheet" href="favicon.ico"/>
 </head>
+
 <body>
+    <div class="page">
+        <header class="header">
+            <nav class="nav">
+                <img src="./images/background_header.svg" alt="background_header" class="nav__background"/>
+                <u1 class="nav__links">
+                    <li><a class="nav__link" href="#recetas">Recetas</a></li>
+                    <li><a class="nav__link" href="#reservarunamesa">Reservar una mesa</a></li>
+                    <li><a class="nav__link" href="#contactos">Contactos</a></li>
+                </u1>
+            </nav>
+
+<section id="hero" class="header__content">
+    <div>
+        <h1 id="hero-title" class="header__title">Café de especialidad</h1>
+        <p id="hero-description" class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad</p>
+    </div>
+    <img src="./images/inside_coffee_shop.png" alt="Ilustracion 'Dentro de la cafeteria'" class="header__image">
+</section>
+
+<div>
+    <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+</div>
+        </header>
+
+
+<main class="content page__content">
+    <section id="recipes" class="recipes content__recipes">
+        <h2 class="recipes__title">Recetas</h2>
+        <p class="recipes__subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.</p>
+        <ul class="recipes__cards">
+            <li class="card">
+                <div class="card__content">
+                    <p class="card__footer">Receta en Aeropress ~5 min</p>
+                </div>
+            </li>
+
+        <li class="card">
+            <div class="card__footer">
+                <p class="card__footer">Receta en cafetera francesa ~15 min</p>
+            </div>
+        </li>
+        </ul>
+    </section>
+
+<section id="reservation" class="reservation">
+    <div class="reservation__content">
+        <h2>Resevar una mesa</h2>
+<div class="reservation__cover">
+            <img src="./images/background_reservation.svg" alt="Reservacion" class="reservation__image">
+        </div>
+
+        <div class="reservation-info reservation__info-section">
+            <div class="reservation-info__item">
+                <p class="reservation__name">Nombre *</p>
+            </div>
+            
+            <div class="reservation-info__item">
+                <p class="reservation__comensales">Número de comensales*</p>
+            </div>
+
+             <div class="reservation-info__item">
+                <p class="reservation__fechahora">Fecha y hora*</p>
+            </div>
+
+             <div class="reservation-info__item">
+                <p class="reservation__correo">Tu correo electrónico*</p>
+            </div>
+
+              <div class="reservation-info__item">
+                <p class="reservation__reservar">Reservar una mesa</p>
+            </div>
+
+              <div class="reservation-info__item">
+                <p class="reservation__terminos">Acepto los términos de uso</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer id="footer" class="footer">
+    <div class="footer__columns">
+        <div class="footer__column">
+            <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="TripleTen Logo">
+        </div>
+
+<div class="footer__column footer__column_content_social">
+    <h3 class="footer__column-heading">Redes Sociales</h3>
+    <ul class="footer__list">
+        <li class="footer__list-item">
+            <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook icon">Facebook</a>
+        </li>
+
+<li class="footer__list-item">
+    <a class="footer__column-link" href="#">
+        <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instragram icon">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+<p class="footer__copyright">© 2025 Daniela Hernandez</p>
+
+</footer>
+    </div>
     
 </body>
 </html>
