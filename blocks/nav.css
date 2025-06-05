@@ -30,3 +30,8 @@
   color: #000000;
   text-decoration: none;
 }
+
+.nav__link:hover {
+  background-color: #2F80ED;
+  color: #ffffff;
+}

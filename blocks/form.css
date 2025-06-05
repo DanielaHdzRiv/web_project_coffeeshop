@@ -45,6 +45,8 @@
   box-sizing: border-box;
   background-color: #2f80ed;
   color: #fff;
+  opacity: 1;
+  transition: opacity 0.3s ease; /* transición suave de opacidad */
 }
 
 .form__button:hover {
